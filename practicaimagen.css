@@ -1,114 +1,76 @@
-html,body{
-    margin: 0;
-    padding: 0;
-    
-    
-    }
-    .main{
-    
-        background-image: url( ./fondos2/9303.jpg);
-        width: 100%; /*ancho*/
-        height: 50%;  /*alto*/
-        position: absolute;
-        color: black;
-        display: inline-block;
-        border-radius: 20px;
-        
-    }
-
-   
- .buscar{
-    display: flex; /* alineta el texto con la lupa*/
-     justify-content: center; /* centra la lupa aun lado del texto*/
-     align-items: center; 
-     position: absolute;
-     left: 50%;
-     top: 50%;
-     transform: translate(-50%,-50%);
-     padding: 10px;
-     height: 80px;
-     border-radius: 40px;
- }
-
- .buscar_texto{
-     border: none; /*quita el borde*/
-     background: none; /*quita el color del borde*/
-     color: white;
-     font-size: 20px; /*tamaño de la letra*/
-     line-height: 60px;
-     
- }
- .boton{
-     width: 40px;
-     height: 40px;
-     text-decoration: white;
-     font-size: 30px;
- }
-
-
-  .moto{
-      
-width: 30%;
-height: 0%;
-display: inline-block;
-margin: 5px;
-
-  }
-
-  
-
-  #menu{
-margin-left: 5%;
-
-  }
-h3{
-    position: absolute;
-    top: 40%;  /*arriba hacia abajo*/
-    left: 45%; /*isquierda*/
-
-    
+body {
+  display: flex;
+  height: 20vh;
+  flex-direction: column;
+  background-image: url(fondos2/9303.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-  .letras{
+.titulo1{
+  color: rgb(14, 12, 12);
+  margin-left: 30px;
+  font-size: 18px;
+}
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
 
-   margin-bottom:30%;
-   size: 2rem;
-   margin-left: 5%;
-   
-   
-  }
-  .nav-enlace{
-    background-color: rgb(132, 164, 170);
-    color: teal;
-    padding: 10px 30px;
-    display: inline-block;
-    justify-content: space-around;
-    
-    text-decoration: none;
-    
-    
-    
-    }
-    .nav-enlace:hover{ /*pasar mouse encima*/
-    background-color: rgb(244, 245, 245);
-    
-    }
-    
-    button{
-    background-color: rgb(94, 240, 245);
-    color: black;
-    margin: 100px;
-    
-    
-    
-    }
-    
-    
-    button:hover{
-    background: violet;
-    
-    }
-    button:active{
-        background-color: turquoise;
-    
-    
-    }
+header {
+  color: aliceblue;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  margin-left: 30px;
+  font-size: 30px;
+  width: fit-content;
+  color: rgb(14, 12, 12);
+  text-transform: uppercase;
+}
+
+.ContenedorBoton {
+  display: flex;
+  align-items: center;
+  background-color: rgba(76, 76, 124, 0.342);
+  width: 83%;
+  border-radius: 30px;
+}
+
+input {
+  background-color: transparent;
+  margin-left: 10px;
+  width: 85%;
+  height: 30px;
+  border-radius: 30px;
+  border: 0;
+}
+
+.lupaImagen {
+  fill: currentColor;
+  border: 0px;
+  margin-left: 20px;
+  color: white;
+}
+
+input:focus {
+  outline: 0;
+  border: 0;
+}
+input::placeholder{
+  color: white;
+}
+
+#menu {
+  margin-bottom: 15px;
+}
+
+.Perfil {
+  margin-bottom: 10px;
+  border-radius: 20px;
+  margin-left: 270px;
+}
