@@ -1,0 +1,114 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    
+    
+    }
+    .main{
+    
+        background-image: url( ./fondos2/9303.jpg);
+        width: 100%; /*ancho*/
+        height: 50%;  /*alto*/
+        position: absolute;
+        color: black;
+        display: inline-block;
+        border-radius: 20px;
+        
+    }
+
+   
+ .buscar{
+    display: flex; /* alineta el texto con la lupa*/
+     justify-content: center; /* centra la lupa aun lado del texto*/
+     align-items: center; 
+     position: absolute;
+     left: 50%;
+     top: 50%;
+     transform: translate(-50%,-50%);
+     padding: 10px;
+     height: 80px;
+     border-radius: 40px;
+ }
+
+ .buscar_texto{
+     border: none; /*quita el borde*/
+     background: none; /*quita el color del borde*/
+     color: white;
+     font-size: 20px; /*tamaño de la letra*/
+     line-height: 60px;
+     
+ }
+ .boton{
+     width: 40px;
+     height: 40px;
+     text-decoration: white;
+     font-size: 30px;
+ }
+
+
+  .moto{
+      
+width: 30%;
+height: 0%;
+display: inline-block;
+margin: 5px;
+
+  }
+
+  
+
+  #menu{
+margin-left: 5%;
+
+  }
+h3{
+    position: absolute;
+    top: 40%;  /*arriba hacia abajo*/
+    left: 45%; /*isquierda*/
+
+    
+}
+  .letras{
+
+   margin-bottom:30%;
+   size: 2rem;
+   margin-left: 5%;
+   
+   
+  }
+  .nav-enlace{
+    background-color: rgb(132, 164, 170);
+    color: teal;
+    padding: 10px 30px;
+    display: inline-block;
+    justify-content: space-around;
+    
+    text-decoration: none;
+    
+    
+    
+    }
+    .nav-enlace:hover{ /*pasar mouse encima*/
+    background-color: rgb(244, 245, 245);
+    
+    }
+    
+    button{
+    background-color: rgb(94, 240, 245);
+    color: black;
+    margin: 100px;
+    
+    
+    
+    }
+    
+    
+    button:hover{
+    background: violet;
+    
+    }
+    button:active{
+        background-color: turquoise;
+    
+    
+    }
